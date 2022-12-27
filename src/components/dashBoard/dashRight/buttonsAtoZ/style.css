@@ -1,0 +1,14 @@
+#buttons button {
+    margin: 2px 1.5px;
+    font-size: 17px;
+    background-color: #3bbaf0da;
+    color: white;
+    border-radius: 0;
+    padding: 3px 11px;
+    border: 1px solid #3bbaf0da;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+#buttons button:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

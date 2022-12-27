@@ -1,0 +1,48 @@
+.image{
+  margin-top:4px ;
+}
+.tile img{
+    width: 60px;
+    height: 70px;
+    margin-right: 9px;
+}
+
+.tile span{
+  display: inline-block;
+}
+
+.tile span p{
+  margin: 0;
+}
+
+.tile span h6{
+  font-size: 14px;
+  margin-bottom: 7px;
+  overflow: hidden;
+}
+.tile{
+    margin:10px; 
+    background-color: #e9e8e8;
+    padding: 10px 11px;
+    font-size: 12px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 80px;
+    width: 239px; 
+    align-items: center;
+    
+  }
+
+  .tile:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+
+
+.tile::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+
+.icons{
+  margin: 2px;
+  color: rgba(0, 0, 0, 0.731);
+}

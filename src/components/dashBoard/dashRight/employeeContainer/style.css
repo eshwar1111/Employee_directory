@@ -1,0 +1,12 @@
+.empBox {
+    display: flex;
+    border: 1px solid #c2c0c0;
+    height: fit-content;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+  }
+
+  .emp_section{
+    display: flex;
+    flex-wrap: wrap;
+  }

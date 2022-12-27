@@ -1,0 +1,83 @@
+.filter-p{
+    margin-left: 30px;
+    margin-right: 10px;
+  
+  }
+
+  .searchBox{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#clear-button {
+  background-color: #69ba00;
+  margin-left: 35px;
+  border-radius: 0;
+  padding: 5px 16px;
+  border: none;
+  color: white;
+  height: 36px;
+  width: 7%;
+  padding: 1px;
+  font-size: large;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#clear-button:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+  select {
+    word-wrap: normal;
+    padding: 4px 42px 5px 5px;
+    border-radius: 0;
+    color: grey;
+    font-size: 17px;
+    font-weight: 400;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    margin-right: 40px;
+  }
+
+#searchb {
+    margin-left: 10px;
+    height: 35px;
+    position: relative;
+    top: 2px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E")
+    no-repeat 8px;
+    filter: grayscale(100%);
+    padding-inline-start: 35px;
+    border: 1px solid #c2c0c0;
+    width: 220px;
+
+  }
+
+input[type="text"]::placeholder {
+    font-size: 15px;
+    align-items: center;
+    position: relative;
+    bottom: 2px;
+  }
+
+.addBtn{
+  background-color:#00b1fc;
+  margin-left: 45px;
+  border-radius: 0;
+  padding: 5px 16px;
+  border: none;
+  color: white;
+  height: 36px;
+  width: 12%;
+  padding: 1px;
+  font-size: large;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.addBtn:hover{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
